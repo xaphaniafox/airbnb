@@ -7,15 +7,23 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+section {
+  padding: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.gray {
+  color: #918E9B;
+}
+
 .navbar {
   display: flex;
   height: 70px;
   padding: 20px 36px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, .1);
-}
-
-section {
-  padding: 20px;
 }
 
 .hero {
@@ -35,3 +43,22 @@ section {
 .hero--text {
   margin-top: 0;
 }
+
+.card {
+  width: 175px;
+  font-size: 12px;
+}
+
+.card--image {
+  width: 100%;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+}
+
+.card-star {
+  height: 14px;
+}
+
